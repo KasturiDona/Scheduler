@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+* {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0ffff;
+  color: #191919;
+}
+nav {
+  background-color: #191919;
+  color: #f0ffff;
+  height: 50px;
+}
+nav a {
+  line-height: 45px;
+  padding: 0 20px;
+  background-color: #191919;
+  color: #f0ffff;
+  text-decoration: none
+}
+.container {
+  margin: 0 auto;
+}
+a:hover {
+  text-decoration: none;
+  color: #909999;
+}
+.no-line {
+  text-decoration: none;
+  color: blue;
+}
+.update-btn {
+  text-decoration: none;
+  font-size: 1.1em;
+  background-color: #191919;
+  color: #f0ffff;
+  padding: 8px;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.update-btn:hover {
+  background-color: #222222;
+  color: whitesmoke;
+  cursor: pointer;
+}
+textarea {
+  font-size: 1em;
+  color: grey;
+}
+.table-show {
+  width: 600px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+td {
+  color: grey;
+}

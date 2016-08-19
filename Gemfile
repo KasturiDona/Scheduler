@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'sinatra-reloader'
+# gem 'rubygems'
+gem 'crack'
+gem 'sqlite3'
+gem 'builder'

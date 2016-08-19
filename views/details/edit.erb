@@ -1,0 +1,9 @@
+<h1>Edit Title / Synopsis</h1><hr>
+<form action="/details/<%= @schedule['id'] %>" method="post">
+	<h3>Title:</h3>
+	<textarea type="text" name="title" placeholder="Title" cols=40 rows=3><%= @schedule['title'] %></textarea>
+	<h3>Synopsis:</h3>
+	<textarea type="text" name="synopsis" placeholder="Synopsis" cols=50 rows=8><%= @schedule['synopsis'] %></textarea>
+	<br/>
+	<input class="update-btn" type="submit" value="Update"><a class="update-btn" href="/details/<%= @schedule['id'] %>">Cancel</a>
+</form>

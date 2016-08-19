@@ -1,0 +1,10 @@
+<h1>Schedule Data</h1>
+<hr>
+<% @detail.each do |schedule| %>
+	<p>
+		<a href="/details/<%= schedule['id'] %>">
+			<%= schedule['title'] %>
+		</a>
+	</p>
+
+<% end %>
